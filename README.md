@@ -35,7 +35,7 @@ and thats it.
 
 ```php
 
-require __DIR__ . '/src/image2URI.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use imageToURI\imageToURI;
 
