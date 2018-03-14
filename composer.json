@@ -19,9 +19,17 @@
   "require": {
     "php": ">=7.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
   "autoload": {
     "psr-4": {
       "imageToURI\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "imageToURI\\Test\\": "tests/"
     }
   }
 }
